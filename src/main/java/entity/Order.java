@@ -17,7 +17,7 @@ public class Order {
         this.cedula_usuario =  cedula_usuario;
     }
 
-    public Order(int id, int fecha_creacion, boolean pago, int fecha_pago, String cedula_usuario){
+    public Order(int id, long fecha_creacion, boolean pago, long fecha_pago, String cedula_usuario){
         this.id = id;
         this.fecha_creacion = fecha_creacion;
         this.pago = pago;
